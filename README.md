@@ -7,7 +7,7 @@ This is a simple and interactive color theme switcher web application made using
 
 ## 📸 Screenshot
 
-![Color Scheme Switcher Preview](./image.png)
+![Color Scheme Switcher Preview](./color.png)
 
 ---
 

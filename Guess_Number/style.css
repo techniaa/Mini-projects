@@ -1,0 +1,28 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  width: 300px;
+  max-width: 750px;
+  min-width: 480px;
+  margin: 0 auto;
+  background-color: #212121;
+}
+#wrapper {
+  box-sizing: border-box;
+  text-align: center;
+  width: 450px;
+  height: 550px;
+  background-color: #474747;
+  color: #fff;
+  font-size: 25px;
+}
+
+h1 {
+  background-color: #161616;
+  font-size: 40px;
+
+  color: #fff;
+  text-align: center;
+}

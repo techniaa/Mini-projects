@@ -16,7 +16,6 @@ This is a simple and interactive color theme switcher web application made using
 - 🎨 Multiple color options (Peach, Grey, Black, Transparent, Red)
 - 💡 One-click background switching
 - 🟢 Live preview of selected color
-- 🧼 Reset functionality to revert to default
 - 🌐 GitHub redirect button on top right
 
 ---
@@ -70,9 +69,11 @@ A simple and clean **BMI (Body Mass Index) Calculator** built using HTML, CSS, a
 
 ## 🔢 BMI Formula
 
-\[
-\text{BMI} = \frac{\text{Weight (kg)}}{(\text{Height (cm)} \div 100)^2}
-\]
+**BMI = Weight (kg) / (Height (m))²**
+
+> Example: If your weight is 70kg and height is 170cm,  
+> BMI = 70 / (1.7 × 1.7) ≈ 24.22
+
 
 ---
 

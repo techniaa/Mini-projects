@@ -84,6 +84,87 @@ A simple and clean **BMI (Body Mass Index) Calculator** built using HTML, CSS, a
 | Underweight    | Less than 18.6    |
 | Normal         | 18.6 - 24.9       |
 | Overweight     | Greater than 24.9 |
+## 🕒 Project-3: Digital Clock
+
+A minimalist and responsive **Digital Clock** built using **HTML**, **CSS**, and **JavaScript**. It displays your current local time in 12-hour format and updates every second. The design features a clean, modern interface with a glowing time display.
+
+---
+
+## 📸 Screenshot
+
+![Digital Clock Preview](./digital_clock.png)
+
+---
+
+## ✨ Features
+
+- 🕰️ Real-time local clock with live seconds
+- 🌗 AM/PM 12-hour format display
+- 🎨 Glowing time bubble styled with CSS
+- ⚡ Lightweight and super fast
+- 📱 Fully responsive for all devices
+
+---
+
+## 🚀 How It Works
+
+- Uses JavaScript's `Date()` object to fetch the current time.
+- Converts time into 12-hour format with AM/PM.
+- Updates the DOM every second using `setInterval()`.
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5** – Markup structure  
+- **CSS3** – Styling and glowing effect  
+- **JavaScript** – Clock logic and real-time update
+
+---
+
+## 📂 File Structure
+
+
+
+# 🎮 Project-4: Guess the Number Game
+
+A fun and interactive **"Guess the Number"** game built using **HTML**, **CSS**, and **JavaScript**. The user has 10 chances to guess a random number between 1 and 100. It features a clean **glassmorphism UI** and gives feedback on each guess!
+
+---
+
+## 📸 Screenshot
+
+![Guess the Number Preview](./number_guess.png)
+
+---
+
+## ✨ Features
+
+- 🔢 Random number generation between 1 and 100
+- 💬 Instant feedback: Too High / Too Low / Correct
+- ✅ Tracks previous guesses and remaining attempts
+- 🎨 Beautiful **glassmorphism** UI with responsive design
+- 🔄 Automatic prompt to restart game after win or loss
+
+---
+
+## 🚀 How It Works
+
+1. User enters a number between 1 and 100.
+2. App checks if it's correct, too high, or too low.
+3. Game ends if the number is guessed or after 10 attempts.
+4. Option to **restart** the game automatically appears.
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5** – Markup structure  
+- **CSS3** – Styles using modern glass UI  
+- **JavaScript (Vanilla)** – Game logic and interactivity
+
+---
+
 
 
 

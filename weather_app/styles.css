@@ -1,0 +1,113 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling with background image */
+body {
+    background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* Dark overlay for better contrast */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
+
+/* Glassmorphic container */
+.container {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    text-align: center;
+    width: 350px;
+}
+
+/* Heading */
+h1 {
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+/* Input + Button container */
+.input-container {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Input field */
+input[type="text"] {
+    flex: 1;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.6);
+    outline: none;
+}
+
+/* Button styling */
+button {
+    padding: 0.5rem 1rem;
+    background-color: rgba(99, 31, 227, 0.9);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgba(0, 95, 163, 0.9);
+}
+
+/* Weather info */
+#weather-info {
+    margin-top: 1rem;
+    color: #fff;
+}
+
+#city-name {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#temperature {
+    font-size: 1.2rem;
+}
+
+#description {
+    font-size: 1rem;
+}
+
+/* Error message */
+#error-message {
+    color: #ffcccc;
+    margin-top: 1rem;
+}
+
+/* Hidden class */
+.hidden {
+    display: none;
+}

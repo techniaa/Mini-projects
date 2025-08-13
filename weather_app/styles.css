@@ -5,22 +5,39 @@
     box-sizing: border-box;
 }
 
-/* Style the body */
+/* Body styling with background image */
 body {
-    background-color: #1b1a1a;
+    background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0') no-repeat center center fixed;
+    background-size: cover;
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    position: relative;
 }
 
-/* Container styling */
+/* Dark overlay for better contrast */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
+
+/* Glassmorphic container */
 .container {
-    background: rgb(98, 97, 97);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     text-align: center;
     width: 350px;
 }
@@ -28,7 +45,7 @@ body {
 /* Heading */
 h1 {
     margin-bottom: 1rem;
-    color: #f9f8f8;
+    color: #fff;
 }
 
 /* Input + Button container */
@@ -42,29 +59,33 @@ h1 {
 input[type="text"] {
     flex: 1;
     padding: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: none;
+    border-radius: 8px;
     font-size: 1rem;
+    background: rgba(255, 255, 255, 0.6);
+    outline: none;
 }
 
 /* Button styling */
 button {
     padding: 0.5rem 1rem;
-    background-color: #631fe3;
+    background-color: rgba(99, 31, 227, 0.9);
     color: white;
     border: none;
-    border-radius: 5px;
-    cursor:-webkit-grabbing;
+    border-radius: 8px;
+    cursor: pointer;
     font-size: 1rem;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #005fa3;
+    background-color: rgba(0, 95, 163, 0.9);
 }
 
 /* Weather info */
 #weather-info {
     margin-top: 1rem;
+    color: #fff;
 }
 
 #city-name {
@@ -74,17 +95,15 @@ button:hover {
 
 #temperature {
     font-size: 1.2rem;
-    color: #444;
 }
 
 #description {
     font-size: 1rem;
-    color: #666;
 }
 
 /* Error message */
 #error-message {
-    color: red;
+    color: #ffcccc;
     margin-top: 1rem;
 }
 

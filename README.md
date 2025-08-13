@@ -164,6 +164,42 @@ A fun and interactive **"Guess the Number"** game built using **HTML**, **CSS**,
 - **JavaScript (Vanilla)** – Game logic and interactivity
 
 ---
+## ⛅ Project-5: Weather App  
+
+A modern and stylish **Weather App** built using **HTML**, **CSS**, and **JavaScript**.  
+It allows users to search for any city and view its **current temperature** and **weather conditions** in real time using the **OpenWeather API**.  
+The app features a **glassmorphism UI** over a scenic background image for a clean, elegant look.  
+
+### 📸 Screenshot  
+![Weather App Preview](./image.png)  
+
+### ✨ Features  
+- 🔍 Search for real-time weather by city name  
+- 🌡️ Displays **temperature** (°C) and **weather description**  
+- 🚫 Shows error message for invalid city names  
+- 🎨 Glassmorphism design with rounded corners and blur effect  
+- 📱 Fully responsive design  
+
+### 🚀 How It Works  
+1. Enter the **city name** in the input box.  
+2. Click **Get weather** to fetch live data from the **OpenWeather API**.  
+3. Displays:
+   - City name  
+   - Temperature in °C  
+   - Weather condition  
+4. If city not found, an error message is shown.  
+
+### 🛠️ Tech Stack  
+- **HTML5** – Structure  
+- **CSS3** – Styling with glassmorphism and background  
+- **JavaScript (ES6)** – Fetch API for data retrieval  
+- **OpenWeather API** – Real-time data source  
+
+---
+
+## 📜 License  
+This project is open-source and available under the [MIT License](LICENSE).
+
 
 
 

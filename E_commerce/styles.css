@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #ffecd2, #fcb69f);
+    background: linear-gradient(135deg, #ffecd2, #c36fdb);
     margin: 0;
     padding: 20px;
 }
@@ -16,7 +16,7 @@ body {
 
 h1, h2 {
     text-align: center;
-    color: #ff6f61;
+    color: #a84ce1;
 }
 
 #Product-list {
@@ -26,6 +26,7 @@ h1, h2 {
 }
 
 .product {
+    
     background: #fff7f3;
     padding: 15px;
     border-radius: 15px;
@@ -40,7 +41,7 @@ h1, h2 {
 }
 
 .product button {
-    background-color: #ff6f61;
+    background-color: #7f249b;
     border: none;
     color: white;
     padding: 10px 15px;
@@ -50,7 +51,7 @@ h1, h2 {
 }
 
 .product button:hover {
-    background-color: #e85b50;
+    background-color: #d39823;
     transform: scale(1.05);
 }
 
